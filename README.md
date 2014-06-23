@@ -3,9 +3,11 @@
 ```haskell
 {-#LANGUAGE OverloadedStrings#-}
 
+module Main where
+
 import YoApp (sendYo, ApiToken)
 
-sendYo (ApiToken "your token")
+main = sendYo (ApiToken "your token")
 
 ```
 
